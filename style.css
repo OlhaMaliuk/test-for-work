@@ -1,86 +1,23 @@
-body {
-  font-family: "Sono", sans-serif;
-  font-weight: 300;
+.body {
+  background-color: black;
 }
-.header {
-  background-image: url(./image/product_page_hero_binocular.webp);
-  background-size: cover;
-  background-position: center;
-  padding-bottom: 60px;
-}
-.menu {
-}
-.menu_ul {
-  display: flex;
-  justify-content: space-around;
-}
-.menu_link {
-  text-decoration: none;
-}
-.menu_li {
-  color: white;
-  list-style: none;
-  font-size: 25px;
-}
-.menu_li:hover {
-  font-size: 35px;
-}
-.symbol {
-  font-size: 35px;
-  text-decoration: none;
-  color: black;
-}
-.title {
-  text-align: center;
-  font-size: 35px;
-}
-.first__descr {
-  display: flex;
-}
-.binoculars__image1 {
+.wrapper {
   width: 100%;
-  height: 335px;
-}
-.description {
-  font-weight: 400;
-  
-}
-.section2 {
-  background-image: url(./image/backgr.png);
-}
-.section2__wrapper {
-  background: rgba(255, 255, 255, 0.7);
-  margin: 0 auto;
-  max-width: 1000px;
-}
-.feature,
-.include {
+  height: 100vh;
   display: flex;
-  font-weight: 400;
-  font-size: 20px;
-  line-height: 22px;
+  justify-content: center;
+  align-items: center;
 }
-.binoculars__image2 {
-  margin-top: 40px;
-  width: 300px;
-  height: 200px;
+.language {
+  list-style: none;
 }
-.binoculars__image3 {
-  width: 300px;
-  height: 300px;
+.choice__lang {
 }
-.binoculars__image4 {
-  width: 300px;
-  height: 400px;
-  opacity: 0.9;
-  margin-left: 4px;
+.choice {
+text-decoration: none;
+color: white;
+font-size: 25px;
 }
-.brand {
-  background: rgba(255, 255, 255, 0.7);
-}
-.binoculars__image6 {
-  margin-left: 567px;
-}
-.footer__bottom-text {
-  margin-left: 1196px;
+.choice:hover {
+  font-size: 35px;
 }
