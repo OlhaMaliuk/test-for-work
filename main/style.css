@@ -1,0 +1,23 @@
+.body {
+  background-color: black;
+}
+.wrapper {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.language {
+  list-style: none;
+}
+.choice__lang {
+}
+.choice {
+text-decoration: none;
+color: white;
+font-size: 25px;
+}
+.choice:hover {
+  font-size: 35px;
+}
